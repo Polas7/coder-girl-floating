@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	text-align: center;
+}
+/*fuente, colores de barra, defecto 0*/
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: whitesmoke;
+	font-family: 'Comfortaa', cursive;; 
+}
+/*lista hacia el lado :)*/
+ul li{
+	float: right;
+	display: inline-block;
+}
+/*estilo*/
+ul li a{
+	display: inline-block;
+	color: blue;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+}
+/*mouse sobre texto cambio de color*/
+li a:hover, .dropdown:hover{
+	background-color: #CB097A;
+	color: pink;
+}
+
+/*Imagen bienvenida y titulo inicial*/
+#coders{ 
+	background: url("../img/home.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 200px;
+}
+.contenido h1{
+	font-family: arial;
+	color: white;
+	font-size: 40px;
+}
+/*estilo del boton*/
+button {
+ border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}

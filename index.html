@@ -4,33 +4,81 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<title>Code Girls</title>
 </head>
 <body>
-	<ul>
-	<li><a href="#code">Code Girls</a></li>
-	<li><a href="#home">Inicio</a></li>
-	<li><a href="#doc">Documental</a></li>
-	<li><a href="#hack">Hackatohn</a></li>
+<section>
+<ul>	
 	<li><a href="#cont">Contacto</a></li>
-</ul>	
+	<li><a href="#hack">Hackathon</a></li>
+	<li><a href="#doc">Documental</a></li>
+	<li><a href="#home">Inicio</a></li>
+	<li><a href="#code">Code Girls</a></li>
+	</ul>
+</section>
+		
 <section id="coders">
 	<div class="contenido">
-		<h1>CHICAS QUE CAMBIAN EL MUNDO</h1>
+		<h1 id="soad">CHICAS QUE CAMBIAN EL MUNDO</h1>
 		<p>¡Participa en nuestra actividades!</p>
 	</div>
-	<button class="btn" onclick="boton()">Inscribete</button>
-</section>			
+	<button class="btn" onclick="cambioTexto()">Inscribete</button>
+</section>
+
+<section>
+		<div class="animo">
+			<img id="myImg" src="assets/img/hackathon.jpg">
+
+				<h2>HACKATHON</h2>
+			<p>¡Participa en nuestra hackathon "Love is Respect"!</p>
+			<p>Idea soluciones a las problematicas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el día 30 de septiembre desde las 10 am.</p>
+	<button class="botn" onclick="floatRight()">Hackathon</button>
+	</div>
+</section>
 
 
+<section>
+	<div class="formulario">
+		<img src="assets/img/made_with_code.jpg">
+			<h2>CONTACTO</h2>
+			<p>Code Girls<br>
+			795 Folson ave. Suite 600<br>
+			San Francisco, CA 94107<br>
+			Fono: (123) 456-7890</p>	
 
+	<form class="form-signup" novalidate>
+		<div class="container-fluid">	
+	<div class="name-container input-box">
+        <input type="text" id="name" class="form-control"
+            placeholder="Nombre">
+          </div><br>
 
+          <form class="form-signup" novalidate>
+		<div class="container-fluid">	
+	<div class="email-container input-box">
+          <input type="email" id="input-email" class="form-control" placeholder="Email" autofocus=""></div><br>	
+          </div>
 
+    <div class="asunto-container input-box">
+            <input type="text" id="asunto" class="form-control"
+            placeholder="Asunto"><br>
+          
+   <br><input type="text" size="20" maxlength="100" placeholder="Mensaje"><br> 
 
-
-
-
+    <button class="btn">Enviar</button>
+    </div>
+    </div>
+    </div>
+ 	</div>
+ 	</form>         
+</section>
+<footer>
+    <div class="container">
+        <p>&copy;2017 Code Girl. Disenado por <span>Laboratoria</span></p>
+    </div>
+</footer>
 </body>
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script type='text/javascript' src="assets/js/donottouchthisfile.js"></script>
 </html>
